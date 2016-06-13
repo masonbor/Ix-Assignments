@@ -29,7 +29,8 @@ h1 {
 
 #mainstuff { 
 	background-image: url(https://consequenceofsound.files.wordpress.com/2012/12/the-smiths.jpg);
-	
+	width: 100%;
+	height: 1000px;
 
 
 }
