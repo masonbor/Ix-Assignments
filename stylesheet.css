@@ -2,7 +2,7 @@
 
 
 #topbar{ 
-	height: 150px;
+	height: 125px;
 	width: 100%;
     background:
 	linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
@@ -30,7 +30,7 @@ h1 {
 #mainstuff { 
 	background-image: url(https://consequenceofsound.files.wordpress.com/2012/12/the-smiths.jpg);
 	width: 100%;
-	height: 1000px;
+	height: 800px;
 
 
 }
