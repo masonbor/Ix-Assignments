@@ -1,9 +1,14 @@
-#topbar{
+div { 
 	height: 200px;
 	width: 100%;
+    display: block;
+}
+
+#topbar{
+	
 	background-color: black;
 	color: white;
-	display: block;
+	
 }
 
 h1 { 
