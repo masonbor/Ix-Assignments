@@ -1,6 +1,9 @@
 #topbar{
+	height: 200px;
+	width: 100%;
 	background-color: black;
 	color: white;
+	display: block;
 }
 
 h1 { 
