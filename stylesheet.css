@@ -2,7 +2,7 @@
 
 
 #topbar{ 
-	height: 100px;
+	height: 120px;
 	width: 100%;
     background:
 	linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
@@ -35,7 +35,7 @@ h1 {
 }
 
 #bottombar{
-	height: 100px;
+	height: 120px;
 	width: 100%;
     background:
 	linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
@@ -53,4 +53,8 @@ h1 {
 	font-size: 20px;
 	color: white;
 
+}
+
+#enron{ 
+	text-align: left; 
 }
