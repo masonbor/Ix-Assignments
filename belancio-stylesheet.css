@@ -1,4 +1,10 @@
-title { 
-
+#rcorner { 
+	float: left;
 
 }
+
+#lcorner { 
+	float: right;
+
+}
+
