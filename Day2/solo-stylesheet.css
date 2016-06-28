@@ -1,0 +1,24 @@
+.first-container {
+	margin: 0px auto;
+	width: 100%;
+	background-color: #3b8cd9;
+
+
+}
+
+.main {
+	text-align: center;
+	color: white;
+	
+}
+
+h1{
+	font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+	font-size: 94px;
+
+}
+
+h2{
+	color: #cfe1f1;
+
+}
