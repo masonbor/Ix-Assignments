@@ -1,0 +1,43 @@
+*{
+	font-family:courier;
+
+
+}
+
+.main-text { 
+	text-align: center;
+	margin: 5px;
+	
+
+}
+
+.animate-color{
+	color: #FF7260;
+	font-family: courier;
+	font-size: 96px;
+
+}	
+
+.caption { 
+
+	font-size: 24px;
+	color: #7b8993;
+
+}
+
+.buttons {
+	text-align: center;
+
+
+}
+
+hr{
+	height: 0.5px;
+	color: #7b8993;
+	width: 25%;
+}
+
+.bottom {
+	text-align: center;
+	
+}
