@@ -2,6 +2,7 @@
 	margin: 0px auto;
 	width: 100%;
 	background-color: #3b8cd9;
+	text-align: center;
 
 
 }
@@ -15,7 +16,7 @@
 .header1{
 	font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
 	font-size: 94px;
-	padding: 50px;
+	padding-bottom: -500px;
 
 }
 
@@ -27,6 +28,7 @@
 .buttons {
 	text-align: center;
 	padding: 30px;
+	display: inline-block;
 
 
 }
@@ -35,17 +37,21 @@
 	background-color: #2dd983;
 	color: white;
 	text-decoration: none;
+	text-align: center;
 	border-radius: 100px;
 	padding-top: .54166667em;
 	padding-bottom: 0.65em;
 	padding-right: 3.25em;
 	padding-left: 3.25em; 
+	
+	
 }
 
 .demo{
 	background-color: #a1c4e0;
 	color: white;
 	text-decoration: none;
+	text-align: center;
 	border-radius: 100px;
 	padding-top: .54166667em;
 	padding-bottom: 0.65em;
@@ -82,9 +88,26 @@
 .second-paragraph{
 	text-align: center;
 	font-size: 23px;
+	width: 50%;
 
 }
 
+.BD-list li {
+
+	width: 33%;
+	float left;
+	list-style-type: none;
+	display: inline-block;
+
+}
+
+.third-container {
+	margin: 0px auto;
+	width: 100%;
+	background-color: #f8f8f8;
+	text-align: center;
+
+}
 
 
 
