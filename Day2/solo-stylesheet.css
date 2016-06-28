@@ -12,28 +12,91 @@
 	
 }
 
-h1{
+.header1{
 	font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
 	font-size: 94px;
+	padding: 50px;
 
 }
 
-h2{
+.header2{
 	color: #cfe1f1;
 
 }
 
 .buttons {
 	text-align: center;
+	padding: 30px;
+
 
 }
 
 .download{
-
-
+	background-color: #2dd983;
+	color: white;
+	text-decoration: none;
+	border-radius: 100px;
+	padding-top: .54166667em;
+	padding-bottom: 0.65em;
+	padding-right: 3.25em;
+	padding-left: 3.25em; 
 }
 
 .demo{
-
-	
+	background-color: #a1c4e0;
+	color: white;
+	text-decoration: none;
+	border-radius: 100px;
+	padding-top: .54166667em;
+	padding-bottom: 0.65em;
+	padding-right: 3.25em;
+	padding-left: 3.25em; 
 }
+
+}
+
+.screenshot1{
+	text-align: center;
+
+}
+
+
+.second-container { 
+	margin: 0px auto;
+	width: 100%;
+	background-color: #f8f8f8;
+
+
+}
+
+.second-main {
+
+
+}
+
+.second-header{
+	text-align: center;
+	font-size: 32px;
+}
+
+.second-paragraph{
+	text-align: center;
+	font-size: 23px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
