@@ -1,0 +1,66 @@
+* {
+
+	box-sizing: border-box;
+}
+
+
+.container {
+	max-width: 1200px;
+	margin: 0px auto;
+
+
+}
+
+ul li {
+	list-style-type: none;
+
+
+}
+
+li { 
+	float: left;
+	border: solid 3px;
+	height: 200px;
+	width: 25%;
+	max-width: 400px;
+
+}
+
+ul :first-child {
+	background-color: red;
+
+}
+
+ul :nth-child(2) {
+	background-color: blue;
+
+
+}
+
+ul :nth-child(3) {
+	background-color: violet;
+
+
+}
+
+ul :last-child {
+	background-color: orange;
+
+
+}
+
+@media(max-width: 1000px) {
+	ul li { 
+		width: 50%;
+	}
+
+
+}
+
+@media(max-width: 700px) {
+	ul li { 
+		width: 100%;
+	}
+
+
+}
