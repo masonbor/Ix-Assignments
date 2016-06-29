@@ -120,6 +120,7 @@
 }
 
 .third-paragraph{
+	color: #797979;
 	text-align: center;
 	font-size: 23px;
 	
@@ -139,7 +140,19 @@
 
 }
 
+.fourth-header {
+	text-align: center;
+	font-size: 32px;
+	padding-top: 70px;
 
+}
+
+.fourth-paragraph {
+	color:#797979;
+	text-align: center;
+	font-size: 23px;
+
+}
 
 
 
