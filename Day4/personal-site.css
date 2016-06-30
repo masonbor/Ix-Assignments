@@ -1,0 +1,179 @@
+* {
+
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+
+
+
+
+}
+
+
+.header {
+	text-align: left;
+
+}
+
+.background-img {
+	background: url(https://i.ytimg.com/vi/dT2oCWFhXCs/maxresdefault.jpg);
+	background-repeat: none;
+	background-position: center;
+	height: 700px;
+}
+
+.container1 {
+
+	background-color: #f3f6f8
+	
+}
+
+
+
+.head-left h2 { 
+	font-size: 20px;
+}
+
+.head-right a { 
+
+	text-align: center;
+	font-size: 10px;
+
+}
+
+.button h2 { 
+	background: rgba(0,0,255,1);
+	color: white;
+	width: 140px;
+	text-decoration: none;
+	border-radius: 40px;
+	margin: 20px 0 15px 0;
+
+
+
+}
+
+.button { 
+	float: right;
+
+}
+
+
+.container1 {
+	padding-top: 30px;
+	background-color: white;
+	
+
+}
+
+.head-left, .head-right { 
+	color: #f3f6f8;
+	font-size: 20px;
+
+}
+
+.story { 
+	text-align: center;
+
+}
+
+.story h3 { 
+	font-size: 40px;
+	padding-bottom: 30px;
+
+
+}
+
+.story p { 
+	font-size: 25px
+}
+
+
+.container2 { 
+	padding-top: 40px;
+
+}
+
+.fam { 
+	text-align: center;
+	padding-top: 30px;
+
+}
+
+.brooks img { 
+	width:  300px;
+    height: 300px;
+
+}
+
+.sebastian img { 
+	width:  300px;
+    height: 300px;
+
+}
+
+.lula img { 
+	width:  300px;
+    height: 300px;
+
+}
+
+
+
+.container3 {
+	padding-top: 30px;
+
+
+}
+
+.vid iframe { 
+	text-align: center;
+
+}
+
+.baby-mase {
+	text-align: center;
+}
+
+.baby-mase img { 
+	text-align: center;
+    width:  350px;
+    height: 350px;
+   
+}
+
+.container4 { 
+	padding-top: 50px;
+
+
+}
+
+
+.background-img2 { 
+	background: url(Images4/future.png);
+	background-repeat: none;
+	background-position: center;
+	height: 550px;
+
+}
+
+.my-future { 
+	padding-left: 40px;
+	padding-top: 150px;
+
+}
+
+.my-future h1 { 
+	color: white;
+
+
+}
+
+.my-future h2 { 
+	color: white;
+
+
+}
+
+
+
+
+
