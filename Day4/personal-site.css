@@ -10,7 +10,6 @@
 
 
 
-
 .head-left h2 { 
 	font-size: 20px;
 }
@@ -61,69 +60,105 @@
 	font-size: 25px;
 	padding-right: 130px;
 	padding-left: 130px;
-
-
 }
-
 
 .container2 { 
 	padding-top: 150px;
 
 }
 
-.fam { 
-	text-align: center;
-	padding-top: 30px;
-
-
+.img-circ {
+	margin:auto;
+	text-align: center;		
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
 }
 
-.fam p { 
-	font-size: 20px;
-
-
+.img-circ::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+	background: rgba(0,0,0,.7);
+	transition: all .3s;
+	border-radius: 50%;
 }
 
-
-
-.brooks img { 
-	width:  300px;
-    height: 300px;
-
-}
-
-.fam img .img-circle { 
+.img-circ:hover::before {
+	opacity: 1;
 	border-radius: 50%;
 
 }
 
-.sebastian img { 
-	width:  300px;
-    height: 300px;
+.hover-overlay {
+	opacity: 0;
+	color: white;
+	font-family: Helvetica;
+	transition: all .5s;  
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-70%);
+}
+
+.img-circ:hover .hover-overlay {
+	opacity: 1;
+	transform: translate(-50%,-50%);
 
 }
 
-.lula img { 
-	width:  300px;
-    height: 300px;
 
+.brooks {
+	background-image: url('Images4/brooks.png');
 }
+
+.sebastian {
+	background-image: url('Images4/seb.png');
+}
+
+.lula {
+	background-image: url('Images4/lula.png');
+}
+
+
+
+.fam-info h3 { 
+	text-align: center;
+}
+
+.fam-info p { 
+	text-align: center;
+	font-size: 17px;
+}
+
 
 
 
 .container3 {
-	padding-top: 150px;
+	padding-top: 120px;
 
 
 }
 
 .vid  { 
 	padding-bottom: 50px;
-	text-align: center;
+	text-align: center
 
 }
 
+.vid iframe { 
+	width: 720px;
+	height: 450px;
 
+}
 
 .container4 { 
 	padding-top: 50px;
@@ -172,27 +207,13 @@ text-align: center;
 }
 
 .finish h5 { 
-
 	font-size: 20px;
-
-
 }
 
 .finish h6 { 
 
 	padding-bottom: 80px;
 	font-size: 18px;
-
-}
-
-@media(max-width: 872px) { 
-
-.background-img {
-	background: url(https://i.ytimg.com/vi/dT2oCWFhXCs/maxresdefault.jpg);
-	background-repeat: none;
-	background-position: center;
-	height: 500px;
-}
 
 }
 
@@ -212,6 +233,76 @@ text-align: center;
 	}
 
 }
+
+@media(max-width: 872px) { 
+
+	.background-img {
+		height: 550px;
+	}
+
+	.container1 { 
+		padding-top: 50px;
+	}
+
+	.container2 { 
+		padding-top: 50px;
+	}
+
+	.fam-info p { 
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+
+}
+
+@media(max-width: 740px) { 
+	.vid iframe{ 
+		width: 640px;
+		height: 400px;
+	}
+
+	.story p { 
+		font-size: 20px;
+	}
+
+}
+
+@media(max-width: 700px) { 
+	.background-img2 { 
+		background-image: url('http://www.billboard.com/files/styles/article_main_image/public/media/future-press-2016-billboard-650.jpg');
+		height: 400px;
+	}
+
+	.my-future { 
+		padding-left: 80px;
+		padding-top: 10px;
+	}
+
+	.my-future h2 { 
+		color: white;
+		font-size: 20px;
+		padding-left: 20px;
+
+	}
+
+	.story p { 
+		font-size: 18px;
+	}
+}
+
+@media(max-width: 660px) { 
+	.vid iframe { 
+		width: 496px;
+		height: 310px;
+
+	}
+
+}
+
+
+
+
 
 
 
