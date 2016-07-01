@@ -1,17 +1,4 @@
-* {
 
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-
-
-
-
-}
-
-
-.header {
-	text-align: left;
-
-}
 
 .background-img {
 	background: url(https://i.ytimg.com/vi/dT2oCWFhXCs/maxresdefault.jpg);
@@ -20,11 +7,7 @@
 	height: 700px;
 }
 
-.container1 {
 
-	background-color: #f3f6f8
-	
-}
 
 
 
@@ -39,34 +22,26 @@
 
 }
 
-.button h2 { 
-	background: rgba(0,0,255,1);
-	color: white;
-	width: 140px;
-	text-decoration: none;
-	border-radius: 40px;
-	margin: 20px 0 15px 0;
-
-
-
-}
-
-.button { 
-	float: right;
-
-}
-
 
 .container1 {
-	padding-top: 30px;
-	background-color: white;
-	
+	padding-top: 150px;
+		
 
 }
 
-.head-left, .head-right { 
+.head-left { 
 	color: #f3f6f8;
 	font-size: 20px;
+
+}
+
+.head-left h6 { 
+	color: black;
+
+}
+
+.head-left h6:hover { 
+	color: white;
 
 }
 
@@ -83,12 +58,16 @@
 }
 
 .story p { 
-	font-size: 25px
+	font-size: 25px;
+	padding-right: 130px;
+	padding-left: 130px;
+
+
 }
 
 
 .container2 { 
-	padding-top: 40px;
+	padding-top: 150px;
 
 }
 
@@ -96,11 +75,25 @@
 	text-align: center;
 	padding-top: 30px;
 
+
 }
+
+.fam p { 
+	font-size: 20px;
+
+
+}
+
+
 
 .brooks img { 
 	width:  300px;
     height: 300px;
+
+}
+
+.fam img .img-circle { 
+	border-radius: 50%;
 
 }
 
@@ -119,26 +112,18 @@
 
 
 .container3 {
-	padding-top: 30px;
+	padding-top: 150px;
 
 
 }
 
-.vid iframe { 
+.vid  { 
+	padding-bottom: 50px;
 	text-align: center;
 
 }
 
-.baby-mase {
-	text-align: center;
-}
 
-.baby-mase img { 
-	text-align: center;
-    width:  350px;
-    height: 350px;
-   
-}
 
 .container4 { 
 	padding-top: 50px;
@@ -151,25 +136,80 @@
 	background: url(Images4/future.png);
 	background-repeat: none;
 	background-position: center;
-	height: 550px;
+	height: 650px;
 
 }
 
 .my-future { 
-	padding-left: 40px;
-	padding-top: 150px;
+	padding-left: 80px;
+	padding-top: 190px;
 
 }
 
 .my-future h1 { 
 	color: white;
+	font-size: 33px;
 
 
 }
 
 .my-future h2 { 
 	color: white;
+	font-size: 30px;
+	padding-left: 20px;
 
+
+}
+
+.container5 { 
+
+padding-top: 80px;
+text-align: center;
+
+
+
+
+}
+
+.finish h5 { 
+
+	font-size: 20px;
+
+
+}
+
+.finish h6 { 
+
+	padding-bottom: 80px;
+	font-size: 18px;
+
+}
+
+@media(max-width: 872px) { 
+
+.background-img {
+	background: url(https://i.ytimg.com/vi/dT2oCWFhXCs/maxresdefault.jpg);
+	background-repeat: none;
+	background-position: center;
+	height: 500px;
+}
+
+}
+
+@media(max-width: 992px) { 
+
+	.my-future h1 { 
+		color: white;
+		font-size: 25px;
+
+	}
+
+	.my-future h2 { 
+		color: white;
+		font-size: 20px;
+		padding-left: 10px;
+
+	}
 
 }
 
