@@ -48,8 +48,9 @@ function nPrimeNums(n) {
 				isPrime = false;
 			}
 		}
+		var pString = "";
 		if (isPrime === true) {
-			return i;
+			
 		}
 	}
 
@@ -58,6 +59,9 @@ function nPrimeNums(n) {
 // Return the output of running the function f twice
 // e.g. doitTwice(function f() {return 1;}) === 2
 function doItTwice(f) {
+	var twice = f() + f(); 
+
+	return twice;
 
 }
 
