@@ -68,8 +68,13 @@ function doItTwice(f) {
 // Return an object that has the properties: first name, last name, age, email, and favorite color
 function objectFun(first, last, age, email, color) {
     var person = {
+    	firstName: "Mason",
+    	lastName: "Borden",
+    	age: 20,
+    	email: "mason@gmail.com",
+    	fav_color: "bleu"
 
-    }
+    };
     return person;
 }
 
