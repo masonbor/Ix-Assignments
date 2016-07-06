@@ -1,0 +1,33 @@
+.container{
+	border: 1px solid red;
+
+
+}
+
+.background-img{ 
+	background-image: url("http://www.luxetravel.com/wp-content/uploads/2013/06/surfing_on_bondi_beach_australia-resized-600.png");
+	background-repeat: none;
+	background-position: center;
+	height: 400px;
+	opacity: 0.5;
+	border: 1px dotted green;
+	
+}
+
+h1 {
+	padding-top: 100px;
+	text-align: center;
+	color: #D3D3D3;
+
+
+}
+
+h2 {
+	text-align: left;
+	color: #D3D3D3;
+	padding-left: 30px
+	padding-right: 30px;
+
+}
+
+

@@ -1,4 +1,102 @@
-.nudge-logo { 
+.container1 { 
+	width: 100%;
+	margin: 0px auto;
+
+}
+
+
+.nav-bar {
+	display: inline-block;
+	width: 100%;
+
+}
+
+.nav-bar div { 
+	width: 32%;
+
+}
+
+.nav-logo { 
+	text-align: left;
+	display: inline-block;
+	
+
+}
+
+.nav-link {
+	display: inline-block;
+	text-align: center;
+	font-size: 18px;
+	
+
+}
+
+.nav-link a { 
+	
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+	padding: 10px;
+	
+
+}
+
+.social-media {
+	text-align: right;
+	display: inline-block;
+	padding-bottom: 22px;
 
 
 }
+
+.line1{
+	color: #9a9a9a;
+	
+
+
+}
+
+.container2 {
+
+
+}
+
+.container2-h1 { 
+	text-align: center;
+	color: #9a9a9a;
+	padding-right: 20%;
+	padding-left: 20%;
+	font-size: 32px;
+
+
+}
+
+.dot-img {
+	text-align: center;
+	padding-bottom: 10px;
+
+
+}
+
+.lake-img {
+	text-align: center;
+
+}
+
+.rosie-denim ul li {
+	display: block;
+	list-style-type: none;
+
+
+}
+
+
+p {
+	text-align: center;
+	font-size: 11px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+
