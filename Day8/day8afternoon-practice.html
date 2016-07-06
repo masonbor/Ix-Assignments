@@ -1,0 +1,28 @@
+<!doctype html> 
+<html>
+<head></head> 
+
+<body ng-app="calculatorApp"> 
+	<div ng-controller="CalcCtrl">
+
+		<input ng-model="x">
+		<input ng-model="y">
+		
+		<div><button ng-click="doMultiply()">Multiply These</button>
+			<button ng-click"doAdd()">Add these</button>
+		<p>Le Result: {{ result1 }}</p></div>
+
+		<input ng-model="a">
+		<input ng-model="b">
+		
+		<div><button ng-click="doSubtract()">Subtract These</button>
+		<p>Le Result: {{ result2 }}</p></div>	
+
+
+
+	</div>	
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.js"></script>
+<script src="day8afternoon-practice.js"></script>
+</body> 
+</html>

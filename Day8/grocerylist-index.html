@@ -1,0 +1,38 @@
+<!doctype html> 
+<html>
+<head></head> 
+
+<body ng-app="groceryApp"> 
+	<div ng-controller="GroceryCtrl">
+
+		<div>
+			<h1>Mason's Billion Dollar List</h1>
+
+			<h3>Item</h3>
+			<input ng-model="item">	
+			
+			<h3>Amount</h3>
+			<input ng-model="quantity">
+			<button ng-click="addGrocery()">Add to List</button>
+
+			<h3>search</h3>
+			<input type="text" ng-model="searchBox">
+
+			<ol>
+        		<li ng-repeat="i in list | filter:searchBox track by $index">
+          			{{i.name}} : {{ i.amount }}
+          			<button ng-click="addAmount(i)">+</button>
+          			<button ng-click="subtractAmount()">-</button>
+        		</li>
+      		</ol>
+
+
+		</div>	
+
+
+	</div>	
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.js"></script>
+<script src="grocerylist.js"></script>
+</body> 
+</html>
