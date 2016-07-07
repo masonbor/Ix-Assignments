@@ -18,13 +18,25 @@
 			<h3>search</h3>
 			<input type="text" ng-model="searchBox">
 
+
+
 			<ol>
         		<li ng-repeat="i in list | filter:searchBox track by $index">
-          			{{i.name}} : {{ i.amount }}
-          			<button ng-click="addAmount(i)">+</button>
-          			<button ng-click="subtractAmount(i)">-</button>
+          			<div ng-hide= "i.isEditing">
+          				<span ng-dblclick="i.isEditing = true">{{i.name}} : {{ i.amount }}</span>
+          				<button ng-click="addAmount(i)">+</button>
+          				<button ng-click="subtractAmount(i, $index)">-</button>
+          				<button ng-click="deleteItem($index)">Delete</button>
+          			</div>
+
+          			<div ng-show="i.isEditing">
+           				<input ng-model="i.name">
+            			<button ng-click="i.isEditing = false">done</button>
+         			</div>
         		</li>
       		</ol>
+
+      		<p><button ng-click="emptyCart()">Empty Cart</button></p>
 
 
 		</div>	
