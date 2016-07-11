@@ -9,10 +9,7 @@ app.config(function($routeProvider) {
 		controller: 'SingleCtrl',
 		templateUrl: 'templates/single-movie.html',
 	})
-	$routeProvider.when('/movie/:movieId', { 
-		controller: 'GiphyCtrl',
-		templateUrl: 'templates/single-movie.html',
-	})
+	
 
 	
 });
@@ -47,26 +44,28 @@ app.controller('SingleCtrl', function ($scope, $http, $routeParams) {
 	}).then(function(response){ 
 		console.log(response);
 		$scope.movie = response.data;
+
+		$http({
+			url: 'http://api.giphy.com/v1/gifs/search',
+			method: 'GET', 
+			params: { 
+				q: $scope.movie.Plot, 
+				api_key: 'dc6zaTOxFJmzC'
+			}
+
+		}).then(function(response) { 
+			console.log(response);
+			$scope.giphys = response.data.data;
+
+
+
+		})
 	
 
 	})
 
 
+
 });
 
 
-app.controller('GiphyCtrl', function($scope, $http) { 
-	$http({
-		url: 'http://api.giphy.com/v1/gifs/search?q=funny+cat&api_key=dc6zaTOxFJmzC',
-		method: 'GET', 
-		params: { 
-			
-		}
-
-
-
-	})
-
-
-
-)};
