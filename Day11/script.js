@@ -57,14 +57,8 @@ app.controller('SingleCtrl', function ($scope, $http, $routeParams) {
 			console.log(response);
 			$scope.giphys = response.data.data;
 
-
-
 		})
-	
-
 	})
-
-
 
 });
 
