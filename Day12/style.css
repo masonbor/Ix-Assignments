@@ -1,0 +1,62 @@
+
+body { 
+	background-color: #06FFF8;
+
+}
+
+.header { 
+	background-color: black;
+	background-size: cover;
+	color: #06FFF8;
+	height: 80px;
+	width: 100%;
+
+}
+
+.header h1 {
+	padding-left: 30px;
+	padding-top: 20px;
+
+}
+
+
+.propList { 
+	font-family: 'Montserrat';
+}
+
+.propList input { 
+	width: 500px;
+	height: 25px;
+}
+
+.propList li { 
+	list-style-type: none;
+
+}
+
+.propList li span { 
+	color: #f2f2f2;
+
+}
+
+.my{ 
+	font-size: 10px;
+
+}
+
+.masonProps li { 
+	list-style-type: none;
+	font-family: 'Montserrat';
+
+}
+
+.masonProps li span{ 
+	color: white;
+
+}
+
+.masonProps p { 
+	font-size: 10px;
+
+}
+

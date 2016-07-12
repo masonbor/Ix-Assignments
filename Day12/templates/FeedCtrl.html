@@ -1,0 +1,17 @@
+<div class="header">
+	<h1>chÖmmies</h1>
+
+</div>
+<div class="propList"> 
+	<h2>Stuur koel stutte om jou Brus</h2>
+	<p class="my"><a href="#/mePage">My Props ---></a></p>
+	<p class="para"><select ng-options="bru.id as bru.first_name for bru in brus track by bru.id" ng-model="selectedBru">
+	</select></p>
+	<input ng-model="newPropsValue" type="text"/>
+	<button ng-click="sendProps()">Send</button>
+	<ul>
+		<li ng-repeat="prop in props">
+			<span>@{{prop.receiver.first_name}}</span> {{prop.text}}
+		</li>
+	</ul>	
+</div> 
