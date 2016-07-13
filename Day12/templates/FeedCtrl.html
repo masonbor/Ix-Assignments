@@ -1,17 +1,31 @@
-<div class="header">
-	<h1>chÖmmies</h1>
+<div class="container container1">
+	<div class="row">
+		<h1>chÖmmies</h1>
 
+	</div>
 </div>
-<div class="propList"> 
-	<h2>Stuur koel stutte om jou Brus</h2>
-	<p class="my"><a href="#/mePage">My Props ---></a></p>
-	<p class="para"><select ng-options="bru.id as bru.first_name for bru in brus track by bru.id" ng-model="selectedBru">
-	</select></p>
-	<input ng-model="newPropsValue" type="text"/>
-	<button ng-click="sendProps()">Send</button>
-	<ul>
-		<li ng-repeat="prop in props">
-			<span>@{{prop.receiver.first_name}}</span> {{prop.text}}
-		</li>
-	</ul>	
+<div class="container">
+	<div class="propList">
+		<div ng-class="{'isDisabled': isSending}"> 
+
+			<h2>Stuur koel stutte om jou Brus</h2>
+			
+			<p class="my"><a href="#/mePage">My Props ---></a></p>
+			<p class="alert alert-info" ng-show="errorMessage">{{errorMessage}}</p>
+
+			<input ng-model="newPropsValue" type="text"/>
+			<button ng-click="sendProps()">Send</button>
+			<select ng-options="bru.id as bru.first_name for bru in brus track by bru.id" ng-model="selectedBru">
+			</select>
+
+		</div>	
+
+			<hr>
+			
+			<ul>
+				<li ng-repeat="prop in props">
+					<span>@{{prop.receiver.first_name}}</span> {{prop.text}}
+				</li>
+			</ul>	
+	</div>
 </div> 

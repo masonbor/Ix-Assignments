@@ -15,6 +15,8 @@ app.config(function($routeProvider) {
 });
 
 app.controller('FeedCtrl', function($scope, $http) {
+	$scope.isSending = false;
+
 	$http({ 
 		url: "http://ixchommies.herokuapp.com/props",
 		method: "GET",
@@ -41,6 +43,9 @@ app.controller('FeedCtrl', function($scope, $http) {
 	})	
 
 	$scope.sendProps = function() { 
+		$scope.errorMessage = "";
+		$scope.isSending = true;
+
 		$http({ 
 		url: "http://ixchommies.herokuapp.com/props",
 		method: "POST",
@@ -54,12 +59,20 @@ app.controller('FeedCtrl', function($scope, $http) {
 		}
 
 	}).then(function(response) { 
-		console.log(response);
+		console.log(response); 
 		$scope.props.unshift(response.data);
         $scope.newPropsValue = "";
         $scope.selectedBru = "";
 		
+	}).catch(function(response){ 
+		console.log(response);
+		$scope.errorMessage = response.data.message;
+
+
+	}).finally(function(response) { 
+		$scope.isSending = false;
 	})
+	
 
 	}
 
