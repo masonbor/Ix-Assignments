@@ -1,0 +1,16 @@
+<div> 
+	<h1>Channels</h1>
+	<ul>
+		<li ng-repeat="c in channels">
+			<a href="#/messagePage/{{c}}">{{c.name}}</a>
+		</li>
+	</ul>
+	<a href="#/signUp">Sign Up</a>
+	or
+	<a href="#/login">Log In</a>
+
+
+
+		 <p><a href="#" ng-click="authObj.$signOut()">Sign out</a></p>
+
+</div>	
